@@ -16,10 +16,10 @@
 </header>
 
 <div>
-    <div class="card col-sm-12 col-md-3 float-left">
+    <div class="citySearch card col-sm-12 col-md-3 float-left">
         <h3>Search for a City</h3>
             <div class="input-group mb-3">
-                <input type="text" class="form-control">
+                <input type="text" id="city" class="form-control">
                 <button class="btn btn-primary" id="searchBtn">
                     <i class="fas fa-search">Search</i>
                 </button>
@@ -29,7 +29,7 @@
     <div class="col-sm-12 col-md-9 float-right">
         <div class="card row">
             <div class="col-sm-12">
-                <h3 id="city"></h3>
+                <h3 id="cityCurrent"></h3>
                     <p id="temp">Temperature:</p>
                         <div id="tempBox"></div>
                     <p id="humidity">Humidity:</p>
@@ -41,14 +41,14 @@
             </div>
         </div>
         <br></br>
-        <h2>5-Day Forecast</h2>
+        <h2 class="forecastTitle">5-Day Forecast</h2>
             <div id="forecast" class="row"></div>
     </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./assets/js/script.js"></script>
 
 </body>

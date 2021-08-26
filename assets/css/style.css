@@ -1,0 +1,26 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+header {
+    text-align: center;
+}
+  
+.title {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+.citySearch{
+    height: 169px;
+}
+
+.forecastTitle{
+    text-align: center;
+}
+
+.forecastDiv{
+    padding-top: 25px;
+    width: 150px; 
+    height: 245px;
+}
